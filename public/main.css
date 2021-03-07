@@ -1,0 +1,76 @@
+html,body{
+	margin: 0;
+	padding:0;
+}
+
+body{
+  background:linear-gradient(180deg,#c3feff,#ffc5eb);
+}
+
+#root{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+  width:100vw;
+}
+
+#quote-box{
+  display:grid;
+  width:400px;
+  background-color:#151515;
+  color:#c3feff;
+  padding:40px;
+  border-radius:5px;
+  grid-template-columns:repeat(auto-fit,1fr);
+  grid-template-rows:repeat(auto-fit,1fr);
+  grid-template-areas:
+    "text text"
+    ". author"
+    "buttons newquote";
+  grid-gap:30px;
+}
+
+#text{
+  grid-area:text;
+  align-self:center;
+  justify-self:center;
+  font-family:Poppins;
+  font-size:1.5rem;
+}
+
+#author{
+  grid-area:author;
+  align-self:center;
+  justify-self:end;
+  font-family:helvetica;
+}
+
+#new-quote{
+  grid-area:newquote;
+  align-self:end;
+  justify-self:end;
+  width:100px;
+  font-family:helvetica;
+}
+
+#tweet-quote{
+  grid-area:buttons;
+  align-self:end;
+  width:20px;
+  height:20px;
+}
+
+.btn{
+  background-color:#c3feff;
+  border:none;
+  text-decoration:none;
+  color:#151515;
+  padding:10px;
+  border-radius:5px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+}
+
