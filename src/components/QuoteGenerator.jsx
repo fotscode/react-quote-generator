@@ -1,5 +1,4 @@
 import React from 'react';
-import Async from 'react-async';
 
 var quotesArray;
 
@@ -25,11 +24,9 @@ function changeColor() {
   let randomColor=`hsl(${hue},100%,${lightness}%)`
   document.body.style.background = randomColor;
   let button=document.getElementById("new-quote");
-  let twitter=document.getElementById("tweet-quote");
   let text = document.getElementById("text");
   let author= document.getElementById("author");
   button.style.backgroundColor=randomColor;
-  twitter.style.backgroundColor=randomColor;
   text.style.color=randomColor;
   author.style.color=randomColor;
   return false;
@@ -46,7 +43,7 @@ class QuoteGenerator extends React.Component{
   }
 
 	componentDidMount(){
-		let req = new XMLHttpRequest;
+		let req = new XMLHttpRequest();
 		req.onload = ((e)=>{
 			quotesArray= JSON.parse(e.target.response);
 			quotesArray=quotesArray.quotes;
@@ -66,7 +63,6 @@ class QuoteGenerator extends React.Component{
       <div id="quote-box">
        <q id="text">{this.state.quote.quote}</q>
         <address id="author">- {this.state.quote.author}</address>
-         <a href="twitter.com/intent/tweet" target="_blank" className="btn" id="tweet-quote"><i class="fa fa-twitter"></i></a>
        <button className="btn" id="new-quote" onClick={this.handleNewQuote}>New quote</button>
       </div>
     );

@@ -3,9 +3,6 @@ import ReactDOM from 'react-dom';
 import QuoteGenerator from './components/QuoteGenerator';
 
 class MyApp extends React.Component{
-	constructor(props){
-		super(props);
-	}
 
 	render(){
 		return(
