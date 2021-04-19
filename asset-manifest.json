@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/react-quote-generator/static/js/main.01e340f4.chunk.js",
-    "main.js.map": "/react-quote-generator/static/js/main.01e340f4.chunk.js.map",
+    "main.js": "/react-quote-generator/static/js/main.544c41bd.chunk.js",
+    "main.js.map": "/react-quote-generator/static/js/main.544c41bd.chunk.js.map",
     "runtime-main.js": "/react-quote-generator/static/js/runtime-main.98356151.js",
     "runtime-main.js.map": "/react-quote-generator/static/js/runtime-main.98356151.js.map",
-    "static/js/2.a35f9370.chunk.js": "/react-quote-generator/static/js/2.a35f9370.chunk.js",
-    "static/js/2.a35f9370.chunk.js.map": "/react-quote-generator/static/js/2.a35f9370.chunk.js.map",
+    "static/js/2.27722e14.chunk.js": "/react-quote-generator/static/js/2.27722e14.chunk.js",
+    "static/js/2.27722e14.chunk.js.map": "/react-quote-generator/static/js/2.27722e14.chunk.js.map",
     "index.html": "/react-quote-generator/index.html",
-    "static/js/2.a35f9370.chunk.js.LICENSE.txt": "/react-quote-generator/static/js/2.a35f9370.chunk.js.LICENSE.txt"
+    "static/js/2.27722e14.chunk.js.LICENSE.txt": "/react-quote-generator/static/js/2.27722e14.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.98356151.js",
-    "static/js/2.a35f9370.chunk.js",
-    "static/js/main.01e340f4.chunk.js"
+    "static/js/2.27722e14.chunk.js",
+    "static/js/main.544c41bd.chunk.js"
   ]
 }
