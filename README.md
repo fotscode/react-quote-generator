@@ -4,5 +4,5 @@ This project uses component React syntax, requesting and manipulating data from 
 
 ## Try it out [here](https://fotscode.github.io/react-quote-generator/)
 
-![quote generator image](https://i.imgur.com/UIPOa0c.png)
+![quote generator image](https://i.imgur.com/UcWAv8o.png)
 
